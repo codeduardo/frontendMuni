@@ -1,0 +1,19 @@
+.turismo--back {
+  flex: 1;
+  background-color: var(--color-gris-claro);
+  padding: 2rem;
+  overflow: auto;
+}
+.caracteristicas {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.items {
+  list-style: none;
+  font-size: 1rem;
+}
+.ubicacion_turismo {
+  display: block;
+  font-size: 1rem;
+  text-align: end;
+}

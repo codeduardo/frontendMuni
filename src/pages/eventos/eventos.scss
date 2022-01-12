@@ -1,0 +1,48 @@
+.eventos--back {
+  background-color: var(--color-gris-claro);
+  flex: 1;
+  padding: 2rem;
+  overflow: auto;
+
+  .title {
+    position: relative;
+    span {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+      font-size: 2rem;
+      &:hover {
+        color: var(--color-verde);
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+.carousel_evento,
+.carousel_turismo {
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+}
+.ant-modal-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.descripcion_evento,
+.descripcion_turismo {
+  .fecha {
+    text-align: end;
+    margin-top: 3rem;
+    color: var(--color-gris-oscuro);
+  }
+}

@@ -1,0 +1,101 @@
+.documentos {
+  background-color: var(--color-gris-claro);
+  flex: 1;
+  padding: 2rem 2rem;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  .agregar {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    padding: 0 1 rem;
+    text-transform: uppercase;
+    border: 2px solid rgb(209, 253, 184);
+  }
+  .agregar:hover {
+    cursor: pointer;
+    background-color: rgb(209, 253, 184);
+    color: #333;
+    font-weight: 700;
+    border: 1px solid #333;
+  }
+}
+
+.cajas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  button {
+    width: 23%;
+    height: 120px;
+    border: 1px solid #59b224;
+    background-color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 1rem;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+    span {
+      width: 100%;
+      height: 100%;
+      background-size: 10px 5px;
+      color: var(--color-amarillo);
+      background-color: #60f80849;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      left: -100%;
+      top: 0;
+      transition: all 0.1s ease-in-out;
+      overflow: hidden;
+      img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+      }
+    }
+    &:hover {
+      color: transparent;
+      span {
+        left: 0;
+      }
+    }
+  }
+}
+.botton-content {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  .left-content {
+    flex: 4;
+    h3 {
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .box {
+      width: 80%;
+      height: 300px;
+    }
+  }
+  .right-content {
+    flex: 2;
+    h3 {
+      font-weight: 700;
+      font-size: 15px;
+      text-align: center;
+    }
+    .ant-row {
+      margin: 0;
+    }
+    button {
+      margin-top: 15px;
+    }
+  }
+}

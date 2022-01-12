@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cba476b2.chunk.css",
+    "main.js": "/static/js/main.f72def78.chunk.js",
+    "main.js.map": "/static/js/main.f72def78.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff5b8ea4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff5b8ea4.js.map",
+    "static/css/2.f56ca5b8.chunk.css": "/static/css/2.f56ca5b8.chunk.css",
+    "static/js/2.fdfde91c.chunk.js": "/static/js/2.fdfde91c.chunk.js",
+    "static/js/2.fdfde91c.chunk.js.map": "/static/js/2.fdfde91c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f56ca5b8.chunk.css.map": "/static/css/2.f56ca5b8.chunk.css.map",
+    "static/css/main.cba476b2.chunk.css.map": "/static/css/main.cba476b2.chunk.css.map",
+    "static/js/2.fdfde91c.chunk.js.LICENSE.txt": "/static/js/2.fdfde91c.chunk.js.LICENSE.txt",
+    "static/media/login.scss": "/static/media/2.a531318d.png",
+    "static/media/quill-emoji.css": "/static/media/1e7b63404cd2fb8e6525b2fd4ee4d286.b0275d38.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff5b8ea4.js",
+    "static/css/2.f56ca5b8.chunk.css",
+    "static/js/2.fdfde91c.chunk.js",
+    "static/css/main.cba476b2.chunk.css",
+    "static/js/main.f72def78.chunk.js"
+  ]
+}

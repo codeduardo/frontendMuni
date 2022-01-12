@@ -1,0 +1,46 @@
+.mesa-partes-front {
+  background-color: var(--color-blanco);
+  padding: 3rem 7rem;
+
+  .indicaciones {
+    max-width: 1000px;
+    width: 95%;
+    margin: 0 auto;
+    border: 1px solid var(--color-amarillo);
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    margin-bottom: 3rem;
+
+    .indicaciones_titulo {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+    }
+
+    .items {
+      margin: 0;
+    }
+  }
+
+  .formulario_mp {
+    margin-top: 2rem;
+  }
+}
+
+.alert {
+  position: fixed;
+  text-align: center;
+  top: 10px;
+  left: 45%;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: var(--color-blanco);
+}
+.alert-danger {
+  background-color: var(--color-rojo);
+}
+.alert-success {
+  background-color: var(--color-verde);
+}

@@ -1,0 +1,30 @@
+.redAdministrativa {
+  background: var(--color-blanco);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+  .content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+
+    .content-left {
+      flex: 2;
+    }
+    .content-right {
+      flex: 1;
+      border-left: 1px solid rgba($color: #000000, $alpha: 0.3);
+
+      .ant-form {
+        width: 85%;
+        margin: 0 auto;
+      }
+      button {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  }
+}

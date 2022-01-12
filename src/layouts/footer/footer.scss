@@ -1,0 +1,106 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #162707;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 7rem;
+  overflow: hidden;
+
+  color: #333;
+  .footer-logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-blanco);
+    padding: 10px 0 20px 0;
+    h2 {
+      color: var(--color-blanco);
+      margin-bottom: 0;
+      font-weight: 700;
+      font-size: 25px;
+    }
+  }
+  .footer-content {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 1px solid var(--color-blanco);
+    padding-bottom: 10px;
+    .box {
+      i {
+        font-size: 20px;
+
+        color: rgba($color: #ffffff, $alpha: 0.8);
+        margin-bottom: 15px;
+      }
+      h3 {
+        color: var(--color-blanco);
+        font-weight: 700;
+        font-size: 12px;
+      }
+      p {
+        font-weight: 500;
+        color: rgba($color: #ffffff, $alpha: 0.7);
+        span {
+          display: block;
+        }
+      }
+    }
+  }
+  .copyright {
+    padding: 20px 0 10px 0;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba($color: #ffffff, $alpha: 0.5);
+    p {
+      margin: 0;
+
+      span {
+        display: block;
+        text-transform: lowercase;
+      }
+    }
+  }
+}
+
+[class^='red_social_'] {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .red_social_items {
+    display: flex;
+    gap: 40px;
+
+    .red_social_item {
+      width: 25px;
+      background-color: transparent;
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      margin: 10px 10px;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.2);
+      }
+      i {
+        font-size: 20px;
+        color: var(--color-blanco);
+      }
+      i:hover {
+        background-color: rgba($color: #fff, $alpha: 0.2);
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
